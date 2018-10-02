@@ -1,0 +1,37 @@
+name: fortuity
+description: A custom dice rolling app.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^0.4.1
+  shared_preferences: ^0.4.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.6.1
+
+flutter_icons:
+  android: false
+  ios: true
+  image_path: "assets/icon.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
